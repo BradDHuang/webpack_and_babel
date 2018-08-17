@@ -1,0 +1,42 @@
+
+// This is a basics notes file.
+
+1. React components are mostly written in JavaScript ES6 with JSX syntax (a syntax extension to JavaScript).
+2. Browsers can understand some parts of ES6, but not all.
+3. Broswers have no idea about what JSX is and how to run that.
+In that case, in order to run our React code in the browser, 
+you have to do some transformation work, to make the browser understand the code.
+
+Babel:
+    a compiler for writing next generation JavaScript.
+    a tool that helps you write code in the latest version of JavaScript. 
+    When your supported environments don't support certain features natively, 
+    Babel will help you compile those features down to a supported version.
+    
+webpack:
+    a static module bundler for modern JavaScript applications.
+    1. by asynchronously loading modules and running them when they have finished loading, 
+    2. or by combining all of the necessary files into a single JavaScript file 
+       that would be loaded via a <script> tag in the HTML.
+       
+babel-preset-env 
+    for compiling Javascript ES6 code down to ES5
+babel-preset-react 
+    for compiling JSX and other stuff down to Javascript
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

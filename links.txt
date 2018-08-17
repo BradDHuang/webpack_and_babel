@@ -1,0 +1,29 @@
+
+// useful links related to this repo.
+
+https://docs.npmjs.com/cli/init
+    npm init
+    create a package.json file.
+    
+    Generate it without having it ask any questions:
+    $ npm init -y
+
+
+Webpack dev server with c9:
+https://stackoverflow.com/questions/43619644/i-am-getting-an-invalid-host-header-message-when-running-my-react-app-in-a-we
+    
+    "scripts": {
+        "start": "webpack-dev-server --port $PORT --host $IP --config webpack.config.js",
+    }
+
+
+
+
+
+
+
+
+
+
+
+
