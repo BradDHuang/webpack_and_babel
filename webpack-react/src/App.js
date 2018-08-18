@@ -7,7 +7,7 @@ class App extends Component {
     render() {
         return (
             <div className="textColor">
-                <Text text="Hello, World! (Works on Cloud9.)" />
+                <Text text="Hello, World." />
             </div>
         );
     }

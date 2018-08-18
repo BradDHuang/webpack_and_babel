@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --port $PORT --host $IP --config webpack.config.js",
-    "compile": "webpack"
+    "compile": "webpack",
+    "build": "webpack --config webpack.config.prod.js",
+    "production": "node server.js"
   },
   "keywords": [],
   "author": "",
@@ -24,5 +26,8 @@
     "webpack": "^4.16.5",
     "webpack-cli": "^3.1.0",
     "webpack-dev-server": "^3.1.5"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
   }
 }
